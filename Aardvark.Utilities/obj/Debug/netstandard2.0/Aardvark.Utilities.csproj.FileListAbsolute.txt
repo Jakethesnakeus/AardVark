@@ -1,0 +1,9 @@
+C:\Users\jaket\source\repos\Aardvark\Aardvark.Utilities\bin\Debug\netstandard2.0\Aardvark.Utilities.deps.json
+C:\Users\jaket\source\repos\Aardvark\Aardvark.Utilities\bin\Debug\netstandard2.0\Aardvark.Utilities.dll
+C:\Users\jaket\source\repos\Aardvark\Aardvark.Utilities\bin\Debug\netstandard2.0\Aardvark.Utilities.pdb
+C:\Users\jaket\source\repos\Aardvark\Aardvark.Utilities\obj\Debug\netstandard2.0\Aardvark.Utilities.csprojAssemblyReference.cache
+C:\Users\jaket\source\repos\Aardvark\Aardvark.Utilities\obj\Debug\netstandard2.0\Aardvark.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\jaket\source\repos\Aardvark\Aardvark.Utilities\obj\Debug\netstandard2.0\Aardvark.Utilities.AssemblyInfoInputs.cache
+C:\Users\jaket\source\repos\Aardvark\Aardvark.Utilities\obj\Debug\netstandard2.0\Aardvark.Utilities.AssemblyInfo.cs
+C:\Users\jaket\source\repos\Aardvark\Aardvark.Utilities\obj\Debug\netstandard2.0\Aardvark.Utilities.dll
+C:\Users\jaket\source\repos\Aardvark\Aardvark.Utilities\obj\Debug\netstandard2.0\Aardvark.Utilities.pdb

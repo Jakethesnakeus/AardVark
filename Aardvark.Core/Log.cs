@@ -164,7 +164,7 @@ namespace Aardvark.Core
             // Log the current Test's [Description("")]
             try
             {
-                Log.WriteLine("[INFO] Test Description: " + TestContext.Get("Description"));
+                Log.WriteLine("[INFO] Test Description: " + Context.Get("Description"));
                 Log.WriteLine();
             }
             catch { /* do nothing */ }
@@ -209,7 +209,7 @@ namespace Aardvark.Core
                 string log = "";
                 try
                 {
-                    log = TestContext.Get("log").ToString();
+                    log = Context.Get("log").ToString();
                 }
                 catch
                 {
@@ -218,7 +218,7 @@ namespace Aardvark.Core
                 // Add the new "log line" to the "log"
                 log = log + value;
                 // Save the new log
-                TestContext.Set("log", log);
+                Context.Set("log", log);
             }
             else
             {
@@ -239,11 +239,11 @@ namespace Aardvark.Core
             else if (destination == "context")
             {
                 // Get the "log" from the current TestContext
-                string log = TestContext.Get("log").ToString();
+                string log = Context.Get("log").ToString();
                 // Add the new "log line" to the "log"
                 log = log + value + Environment.NewLine;
                 // Save the new log
-                TestContext.Set("log", log);
+                Context.Set("log", log);
             }
             else
             {

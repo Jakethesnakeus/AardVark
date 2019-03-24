@@ -47,7 +47,7 @@
           "lib/netstandard2.0/nunit.framework.dll": {}
         },
         "build": {
-          "build/NUnit.props": {}
+          "build/_._": {}
         }
       },
       "System.Buffers/4.4.0": {
@@ -165,6 +165,31 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "Aardvark.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "NUnit": "3.11.0",
+          "Newtonsoft.Json": "12.0.1",
+          "System.Configuration.ConfigurationManager": "4.6.0-preview3.19128.7"
+        },
+        "compile": {
+          "bin/placeholder/Aardvark.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Aardvark.Core.dll": {}
+        }
+      },
+      "Aardvark.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Aardvark.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Aardvark.Utilities.dll": {}
         }
       }
     }
@@ -714,14 +739,23 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Aardvark.Core/1.0.0": {
+      "type": "project",
+      "path": "../Aardvark.Core/Aardvark.Core.csproj",
+      "msbuildProject": "../Aardvark.Core/Aardvark.Core.csproj"
+    },
+    "Aardvark.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../Aardvark.Utilities/Aardvark.Utilities.csproj",
+      "msbuildProject": "../Aardvark.Utilities/Aardvark.Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3",
-      "NUnit >= 3.11.0",
-      "Newtonsoft.Json >= 12.0.1",
-      "System.Configuration.ConfigurationManager >= 4.6.0-preview3.19128.7"
+      "Aardvark.Core >= 1.0.0",
+      "Aardvark.Utilities >= 1.0.0",
+      "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
@@ -731,11 +765,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.Core\\Aardvark.Core.csproj",
-      "projectName": "Aardvark.Core",
-      "projectPath": "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.Core\\Aardvark.Core.csproj",
+      "projectUniqueName": "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.Web\\Aardvark.Web.csproj",
+      "projectName": "Aardvark.Web",
+      "projectPath": "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.Web\\Aardvark.Web.csproj",
       "packagesPath": "C:\\Users\\jaket\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.Core\\obj\\",
+      "outputPath": "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -753,7 +787,14 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.Core\\Aardvark.Core.csproj": {
+              "projectPath": "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.Core\\Aardvark.Core.csproj"
+            },
+            "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.Utilities\\Aardvark.Utilities.csproj": {
+              "projectPath": "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.Utilities\\Aardvark.Utilities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -770,18 +811,6 @@
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
-          },
-          "NUnit": {
-            "target": "Package",
-            "version": "[3.11.0, )"
-          },
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[12.0.1, )"
-          },
-          "System.Configuration.ConfigurationManager": {
-            "target": "Package",
-            "version": "[4.6.0-preview3.19128.7, )"
           }
         },
         "imports": [

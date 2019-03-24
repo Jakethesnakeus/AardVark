@@ -7,3 +7,12 @@ C:\Users\jaket\source\repos\Aardvark\Aardvark\obj\Debug\netstandard2.0\Aardvark.
 C:\Users\jaket\source\repos\Aardvark\Aardvark\bin\Debug\netstandard2.0\Aardvark.Core.pdb
 C:\Users\jaket\source\repos\Aardvark\Aardvark\obj\Debug\netstandard2.0\Aardvark.Core.dll
 C:\Users\jaket\source\repos\Aardvark\Aardvark\obj\Debug\netstandard2.0\Aardvark.Core.pdb
+C:\Users\jaket\source\repos\Aardvark\Aardvark.Core\bin\Debug\netstandard2.0\Aardvark.Core.deps.json
+C:\Users\jaket\source\repos\Aardvark\Aardvark.Core\bin\Debug\netstandard2.0\Aardvark.Core.dll
+C:\Users\jaket\source\repos\Aardvark\Aardvark.Core\bin\Debug\netstandard2.0\Aardvark.Core.pdb
+C:\Users\jaket\source\repos\Aardvark\Aardvark.Core\obj\Debug\netstandard2.0\Aardvark.Core.csprojAssemblyReference.cache
+C:\Users\jaket\source\repos\Aardvark\Aardvark.Core\obj\Debug\netstandard2.0\Aardvark.Core.csproj.CoreCompileInputs.cache
+C:\Users\jaket\source\repos\Aardvark\Aardvark.Core\obj\Debug\netstandard2.0\Aardvark.Core.AssemblyInfoInputs.cache
+C:\Users\jaket\source\repos\Aardvark\Aardvark.Core\obj\Debug\netstandard2.0\Aardvark.Core.AssemblyInfo.cs
+C:\Users\jaket\source\repos\Aardvark\Aardvark.Core\obj\Debug\netstandard2.0\Aardvark.Core.dll
+C:\Users\jaket\source\repos\Aardvark\Aardvark.Core\obj\Debug\netstandard2.0\Aardvark.Core.pdb

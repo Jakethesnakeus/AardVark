@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Aardvark.Core
 {
-    public class TestContext
+    public class Context
     {
         /// <summary>
         /// Gets a single value for a key, using the first one if multiple values are present and returning null if the value is not found.
