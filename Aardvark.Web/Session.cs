@@ -89,7 +89,7 @@ namespace Aardvark.Web
                         // Write result to log
                         Log.WriteLine("    [WARNING] Unable to create a remote session, so creating a local one.");
                         // Create a local session
-                        returnValue = new ChromeDriver(options);
+                        returnValue = new ChromeDriver("C:/Users/jaket/source/repos/Aardvark/Aardvark.Drivers/",options);
                     }
                 }
                 else if (browser.Equals("edge"))

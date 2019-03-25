@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "5a50f099c12aa3cdd49933d9f7526a149388fd84"
+    "signature": "3589654cdbb67b75fc2c1b9fddea04896e7a6a15"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,6 +11,7 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "NUnit": "3.11.0",
+          "NUnit3TestAdapter": "3.11.0",
           "Newtonsoft.Json": "12.0.1",
           "System.Configuration.ConfigurationManager": "4.6.0-preview3.19128.7"
         },
@@ -43,6 +44,7 @@
           }
         }
       },
+      "NUnit3TestAdapter/3.11.0": {},
       "System.Buffers/4.4.0": {
         "runtime": {
           "lib/netstandard2.0/System.Buffers.dll": {
@@ -168,6 +170,13 @@
       "sha512": "sha512-BzGk+u02RCrysmLlSzD+okxzMQ8JRF4eFC/qijDJ8Y/FBdTrTkxkQyTFsYkG1o++pr7QpFAE4VDXDqIfZ/gBAg==",
       "path": "nunit/3.11.0",
       "hashPath": "nunit.3.11.0.nupkg.sha512"
+    },
+    "NUnit3TestAdapter/3.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ae4UL0lBn09Wvr6hsF3VmiBtKdaJlfpc+KIfjd4ukUzEipltjl9vKs7k0og+s83Di0E20dT/T5zbFw/Axkn9jA==",
+      "path": "nunit3testadapter/3.11.0",
+      "hashPath": "nunit3testadapter.3.11.0.nupkg.sha512"
     },
     "System.Buffers/4.4.0": {
       "type": "package",

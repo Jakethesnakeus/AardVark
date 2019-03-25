@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Drawing;
 using Aardvark.Core;
-using Aardvarl.Web;
+using Aardvark.Web;
 
 namespace Aardvark.Web
 {
