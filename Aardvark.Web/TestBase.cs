@@ -21,24 +21,12 @@ namespace Aardvark.Web
         /// <summary>
         /// Get the WebDriver from the current Test's Context.
         /// </summary>
-        protected static IWebDriver driver
-        {
-            get
-            {
-                return (IWebDriver)TestContext.Get("driver");
-            }
-        }
+        protected static IWebDriver driver => (IWebDriver)TestContext.Get("driver");
 
         /// <summary>
         /// Get the Base URL from the current Test's Context.
         /// </summary>
-        protected static string baseUrl
-        {
-            get
-            {
-                return TestContext.Get("baseUrl").ToString();
-            }
-        }
+        protected static string baseUrl => TestContext.Get("baseUrl").ToString();
 
         #endregion Test Properties
 

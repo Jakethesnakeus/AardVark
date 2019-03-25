@@ -1,5 +1,4 @@
 ﻿using Aardvark.Core;
-using Aardvark.Web;
 using Aardvark.Utilities;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
@@ -20,13 +19,7 @@ namespace Aardvark.Web
         /// <summary>
         /// Defines the interface through which the user controls the application.
         /// </summary>
-        protected static IWebDriver driver
-        {
-            get
-            {
-                return (IWebDriver)Context.Get("driver");
-            }
-        }
+        protected static IWebDriver driver => (IWebDriver)Context.Get("driver");
 
         #endregion App Properties
 

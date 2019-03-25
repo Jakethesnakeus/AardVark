@@ -11,26 +11,14 @@ namespace Aardvark.WebTests.Poms
             /* empty constructor */
         }
 
-        public IWebDriver driver
-        {
-            get         
-            {
-                return (IWebDriver)Context.Get("driver");
-            }
-        }
+        public IWebDriver driver => (IWebDriver)Context.Get("driver");
         #region Page Elements
 
 
-        public WebElement Login
-        {
-            get
-            {
-                return new WebElement
+        public WebElement Login => new WebElement
                 (
                     By.XPath("//*[@id=main - menu]/ul/li[8]/a/span")
                 );
-            }
-        }
 
         #endregion Page Elements
 

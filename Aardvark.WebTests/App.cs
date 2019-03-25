@@ -8,12 +8,6 @@ namespace Aardvark.WebTests
         /// <summary>
         /// 'Home' page.
         /// </summary>
-        public static Tests Tests
-        {
-            get
-            {
-                return new Tests();
-            }
-        }
+        public static Tests Tests => new Tests();
     }
 }

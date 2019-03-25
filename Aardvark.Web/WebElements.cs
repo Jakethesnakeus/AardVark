@@ -29,13 +29,7 @@ namespace Aardvark.Web
         /// <summary>
         /// Defines the interface through which the user controls the browser.
         /// </summary>
-        public IWebDriver driver
-        {
-            get
-            {
-                return (IWebDriver)Context.Get("driver"); 
-            }
-        }
+        public IWebDriver driver => (IWebDriver)Context.Get("driver");
 
         /// <summary>
         /// Defines the interface through which the user controls elements on the page.
