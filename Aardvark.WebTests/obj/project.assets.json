@@ -437,11 +437,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.WebTests\\Aardvark.WebTests.csproj",
+      "projectUniqueName": "C:\\Users\\jaket\\source\\repos\\AardVark\\Aardvark.WebTests\\Aardvark.WebTests.csproj",
       "projectName": "Aardvark.WebTests",
-      "projectPath": "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.WebTests\\Aardvark.WebTests.csproj",
+      "projectPath": "C:\\Users\\jaket\\source\\repos\\AardVark\\Aardvark.WebTests\\Aardvark.WebTests.csproj",
       "packagesPath": "C:\\Users\\jaket\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.WebTests\\obj\\",
+      "outputPath": "C:\\Users\\jaket\\source\\repos\\AardVark\\Aardvark.WebTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -460,14 +460,14 @@
       "frameworks": {
         "net462": {
           "projectReferences": {
-            "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.Core\\Aardvark.Core.csproj": {
-              "projectPath": "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.Core\\Aardvark.Core.csproj"
+            "C:\\Users\\jaket\\source\\repos\\AardVark\\Aardvark.Core\\Aardvark.Core.csproj": {
+              "projectPath": "C:\\Users\\jaket\\source\\repos\\AardVark\\Aardvark.Core\\Aardvark.Core.csproj"
             },
-            "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.Utilities\\Aardvark.Utilities.csproj": {
-              "projectPath": "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.Utilities\\Aardvark.Utilities.csproj"
+            "C:\\Users\\jaket\\source\\repos\\AardVark\\Aardvark.Utilities\\Aardvark.Utilities.csproj": {
+              "projectPath": "C:\\Users\\jaket\\source\\repos\\AardVark\\Aardvark.Utilities\\Aardvark.Utilities.csproj"
             },
-            "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.Web\\Aardvark.Web.csproj": {
-              "projectPath": "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.Web\\Aardvark.Web.csproj"
+            "C:\\Users\\jaket\\source\\repos\\AardVark\\Aardvark.Web\\Aardvark.Web.csproj": {
+              "projectPath": "C:\\Users\\jaket\\source\\repos\\AardVark\\Aardvark.Web\\Aardvark.Web.csproj"
             }
           }
         }

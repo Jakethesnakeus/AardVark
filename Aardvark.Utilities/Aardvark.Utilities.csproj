@@ -9,4 +9,10 @@
     <PackageReference Include="NUnit3TestAdapter" Version="3.11.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Aardvark.Core\bin\Debug\net462\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

@@ -16,10 +16,10 @@
 
   <ItemGroup>
     <Reference Include="WebDriver">
-      <HintPath>..\..\sdetqa-framework-c-sharp\Selenium\WebDriver.dll</HintPath>
+      <HintPath>..\Aardvark.Drivers\WebDriver.dll</HintPath>
     </Reference>
     <Reference Include="WebDriver.Support">
-      <HintPath>..\..\sdetqa-framework-c-sharp\Selenium\WebDriver.Support.dll</HintPath>
+      <HintPath>..\Aardvark.Drivers\WebDriver.Support.dll</HintPath>
     </Reference>
   </ItemGroup>
 
