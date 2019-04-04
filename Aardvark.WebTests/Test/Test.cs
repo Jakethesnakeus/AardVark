@@ -1,18 +1,20 @@
 ﻿using NUnit.Framework;
 using Aardvark.Web;
+using Aardvark.WebTests.Pages;
 
 namespace Aardvark.WebTests.Test
 {   [TestFixture]
-    public class Tests : TestBase
+    public class Test : TestBase
     {
+        Tests Tests = new Tests();
         [Test]
         public void Test1()
         {
             string url = "https://phptravels.com/demo/";
             // Arrange
-            App.Tests.Open();
+            Tests.Open();
             // Act
-            Assert.AreEqual(url, App.Tests.CurrentUrl());
+            Assert.AreEqual(url, Tests.CurrentUrl());
         }
     }
 }

@@ -15,7 +15,6 @@ C:\Users\jaket\source\repos\AardVark\Aardvark.WebTests\bin\Debug\net462\Aardvark
 C:\Users\jaket\source\repos\AardVark\Aardvark.WebTests\bin\Debug\net462\Aardvark.Utilities.dll
 C:\Users\jaket\source\repos\AardVark\Aardvark.WebTests\bin\Debug\net462\Aardvark.Web.dll
 C:\Users\jaket\source\repos\AardVark\Aardvark.WebTests\bin\Debug\net462\WebDriver.dll
-C:\Users\jaket\source\repos\AardVark\Aardvark.WebTests\bin\Debug\net462\WebDriver.Support.dll
 C:\Users\jaket\source\repos\AardVark\Aardvark.WebTests\bin\Debug\net462\Aardvark.Core.pdb
 C:\Users\jaket\source\repos\AardVark\Aardvark.WebTests\bin\Debug\net462\Aardvark.Utilities.pdb
 C:\Users\jaket\source\repos\AardVark\Aardvark.WebTests\bin\Debug\net462\Aardvark.Web.pdb
@@ -26,3 +25,4 @@ C:\Users\jaket\source\repos\AardVark\Aardvark.WebTests\obj\Debug\net462\Aardvark
 C:\Users\jaket\source\repos\AardVark\Aardvark.WebTests\obj\Debug\net462\Aardvark.WebTests.csproj.CopyComplete
 C:\Users\jaket\source\repos\AardVark\Aardvark.WebTests\obj\Debug\net462\Aardvark.WebTests.dll
 C:\Users\jaket\source\repos\AardVark\Aardvark.WebTests\obj\Debug\net462\Aardvark.WebTests.pdb
+C:\Users\jaket\source\repos\AardVark\Aardvark.WebTests\bin\Debug\net462\WebDriver.Support.dll

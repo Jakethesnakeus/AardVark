@@ -7,21 +7,14 @@
   <ItemGroup>
     <PackageReference Include="NUnit" Version="3.11.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.11.0" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Aardvark.Core\Aardvark.Core.csproj" />
     <ProjectReference Include="..\Aardvark.Utilities\Aardvark.Utilities.csproj" />
     <ProjectReference Include="..\Aardvark.Web\Aardvark.Web.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="WebDriver">
-      <HintPath>..\..\sdetqa-framework-c-sharp\Selenium\WebDriver.dll</HintPath>
-    </Reference>
-    <Reference Include="WebDriver.Support">
-      <HintPath>..\..\sdetqa-framework-c-sharp\Selenium\WebDriver.Support.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>

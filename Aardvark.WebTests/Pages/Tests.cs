@@ -1,8 +1,9 @@
 ﻿using Aardvark.Core;
 using Aardvark.Web;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Support.PageObjects;
 
-namespace Aardvark.WebTests.Poms
+namespace Aardvark.WebTests.Pages
 {
     public class Tests
     {
@@ -14,11 +15,9 @@ namespace Aardvark.WebTests.Poms
         public IWebDriver driver => (IWebDriver)Context.Get("driver");
         #region Page Elements
 
-
-        public WebElement Login => new WebElement
-                (
-                    By.XPath("//*[@id=main - menu]/ul/li[8]/a/span")
-                );
+        [FindsBy(How = How.XPath, Using = "//*[@id=main - menu]/ul/li[8]/a/span")]
+        public IWebElement Login { get; set; }
+       
 
         #endregion Page Elements
 
