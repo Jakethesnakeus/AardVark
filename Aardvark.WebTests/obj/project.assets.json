@@ -2,6 +2,32 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.6.2": {
+      "ExcelDataReader/3.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Data",
+          "System.IO.Compression"
+        ],
+        "compile": {
+          "lib/net45/ExcelDataReader.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ExcelDataReader.dll": {}
+        }
+      },
+      "ExcelDataReader.DataSet/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "ExcelDataReader": "3.5.0"
+        },
+        "compile": {
+          "lib/net35/ExcelDataReader.DataSet.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ExcelDataReader.DataSet.dll": {}
+        }
+      },
       "Newtonsoft.Json/12.0.1": {
         "type": "package",
         "compile": {
@@ -159,8 +185,13 @@
         "type": "project",
         "framework": ".NETFramework,Version=v4.6.2",
         "dependencies": {
+          "Aardvark.Core": "1.0.0",
+          "ExcelDataReader.DataSet": "3.5.0",
           "NUnit": "3.11.0",
-          "NUnit3TestAdapter": "3.11.0"
+          "NUnit3TestAdapter": "3.11.0",
+          "Selenium.Support": "3.141.0",
+          "Selenium.WebDriver": "3.141.0",
+          "exceldatareader": "3.5.0"
         },
         "compile": {
           "bin/placeholder/Aardvark.Utilities.dll": {}
@@ -188,6 +219,49 @@
     }
   },
   "libraries": {
+    "ExcelDataReader/3.5.0": {
+      "sha512": "hGXK/qMFy0cPx4b1RPeI7CXPwljVj4QjntrYoqNEShFP6qIAzLBlsBK3DXc9rO0O1pI5+066k5XAc16Nsc4kgw==",
+      "type": "package",
+      "path": "exceldatareader/3.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "exceldatareader.3.5.0.nupkg.sha512",
+        "exceldatareader.nuspec",
+        "lib/net20/ExcelDataReader.dll",
+        "lib/net20/ExcelDataReader.pdb",
+        "lib/net20/ExcelDataReader.xml",
+        "lib/net45/ExcelDataReader.dll",
+        "lib/net45/ExcelDataReader.pdb",
+        "lib/net45/ExcelDataReader.xml",
+        "lib/netstandard1.3/ExcelDataReader.dll",
+        "lib/netstandard1.3/ExcelDataReader.pdb",
+        "lib/netstandard1.3/ExcelDataReader.xml",
+        "lib/netstandard2.0/ExcelDataReader.dll",
+        "lib/netstandard2.0/ExcelDataReader.pdb",
+        "lib/netstandard2.0/ExcelDataReader.xml"
+      ]
+    },
+    "ExcelDataReader.DataSet/3.5.0": {
+      "sha512": "eF8+MahpG44Iy+LgPox5sumTkkMz/iYQ3QfDYD18wKHbJophDO/W+1wch+a4+fW6yWC5q/97t2wYYReHGyUzvw==",
+      "type": "package",
+      "path": "exceldatareader.dataset/3.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "exceldatareader.dataset.3.5.0.nupkg.sha512",
+        "exceldatareader.dataset.nuspec",
+        "lib/net20/ExcelDataReader.DataSet.dll",
+        "lib/net20/ExcelDataReader.DataSet.pdb",
+        "lib/net20/ExcelDataReader.DataSet.xml",
+        "lib/net35/ExcelDataReader.DataSet.dll",
+        "lib/net35/ExcelDataReader.DataSet.pdb",
+        "lib/net35/ExcelDataReader.DataSet.xml",
+        "lib/netstandard2.0/ExcelDataReader.DataSet.dll",
+        "lib/netstandard2.0/ExcelDataReader.DataSet.pdb",
+        "lib/netstandard2.0/ExcelDataReader.DataSet.xml"
+      ]
+    },
     "Newtonsoft.Json/12.0.1": {
       "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
       "type": "package",

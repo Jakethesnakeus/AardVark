@@ -26,3 +26,5 @@ C:\Users\jaket\source\repos\AardVark\Aardvark.WebTests\obj\Debug\net462\Aardvark
 C:\Users\jaket\source\repos\AardVark\Aardvark.WebTests\obj\Debug\net462\Aardvark.WebTests.dll
 C:\Users\jaket\source\repos\AardVark\Aardvark.WebTests\obj\Debug\net462\Aardvark.WebTests.pdb
 C:\Users\jaket\source\repos\AardVark\Aardvark.WebTests\bin\Debug\net462\WebDriver.Support.dll
+C:\Users\jaket\source\repos\AardVark\Aardvark.WebTests\bin\Debug\net462\ExcelDataReader.dll
+C:\Users\jaket\source\repos\AardVark\Aardvark.WebTests\bin\Debug\net462\ExcelDataReader.DataSet.dll

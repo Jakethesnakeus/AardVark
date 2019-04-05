@@ -375,11 +375,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.Core\\Aardvark.Core.csproj",
+      "projectUniqueName": "C:\\Users\\jaket\\source\\repos\\AardVark\\Aardvark.Core\\Aardvark.Core.csproj",
       "projectName": "Aardvark.Core",
-      "projectPath": "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.Core\\Aardvark.Core.csproj",
+      "projectPath": "C:\\Users\\jaket\\source\\repos\\AardVark\\Aardvark.Core\\Aardvark.Core.csproj",
       "packagesPath": "C:\\Users\\jaket\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jaket\\source\\repos\\Aardvark\\Aardvark.Core\\obj\\",
+      "outputPath": "C:\\Users\\jaket\\source\\repos\\AardVark\\Aardvark.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

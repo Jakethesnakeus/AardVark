@@ -23,3 +23,5 @@ C:\Users\jaket\source\repos\AardVark\Aardvark.Web\obj\Debug\net462\Aardvark.Web.
 C:\Users\jaket\source\repos\AardVark\Aardvark.Web\obj\Debug\net462\Aardvark.Web.csproj.CopyComplete
 C:\Users\jaket\source\repos\AardVark\Aardvark.Web\obj\Debug\net462\Aardvark.Web.dll
 C:\Users\jaket\source\repos\AardVark\Aardvark.Web\obj\Debug\net462\Aardvark.Web.pdb
+C:\Users\jaket\source\repos\AardVark\Aardvark.Web\bin\Debug\net462\ExcelDataReader.dll
+C:\Users\jaket\source\repos\AardVark\Aardvark.Web\bin\Debug\net462\ExcelDataReader.DataSet.dll

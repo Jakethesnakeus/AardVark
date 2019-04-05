@@ -13,3 +13,13 @@ C:\Users\jaket\source\repos\AardVark\Aardvark.Utilities\obj\Debug\net462\Aardvar
 C:\Users\jaket\source\repos\AardVark\Aardvark.Utilities\obj\Debug\net462\Aardvark.Utilities.pdb
 C:\Users\jaket\source\repos\AardVark\Aardvark.Utilities\obj\Debug\net462\Aardvark.Utilities.csprojAssemblyReference.cache
 C:\Users\jaket\source\repos\AardVark\Aardvark.Utilities\bin\Debug\net462\Newtonsoft.Json.dll
+C:\Users\jaket\source\repos\AardVark\Aardvark.Utilities\bin\Debug\net462\ExcelDataReader.dll
+C:\Users\jaket\source\repos\AardVark\Aardvark.Utilities\bin\Debug\net462\ExcelDataReader.DataSet.dll
+C:\Users\jaket\source\repos\AardVark\Aardvark.Utilities\bin\Debug\net462\System.Configuration.ConfigurationManager.dll
+C:\Users\jaket\source\repos\AardVark\Aardvark.Utilities\bin\Debug\net462\System.Security.AccessControl.dll
+C:\Users\jaket\source\repos\AardVark\Aardvark.Utilities\bin\Debug\net462\System.Security.Permissions.dll
+C:\Users\jaket\source\repos\AardVark\Aardvark.Utilities\bin\Debug\net462\System.Security.Principal.Windows.dll
+C:\Users\jaket\source\repos\AardVark\Aardvark.Utilities\bin\Debug\net462\Aardvark.Core.dll
+C:\Users\jaket\source\repos\AardVark\Aardvark.Utilities\bin\Debug\net462\Aardvark.Core.pdb
+C:\Users\jaket\source\repos\AardVark\Aardvark.Utilities\bin\Debug\net462\WebDriver.dll
+C:\Users\jaket\source\repos\AardVark\Aardvark.Utilities\bin\Debug\net462\WebDriver.Support.dll
