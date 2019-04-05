@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.11.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.11.0" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aardvark.Core\Aardvark.Core.csproj" />
+    <ProjectReference Include="..\Aardvark.Utilities\Aardvark.Utilities.csproj" />
+    <ProjectReference Include="..\Aardvark.Web\Aardvark.Web.csproj" />
+  </ItemGroup>
+
+</Project>
