@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aardvark.Web", "Aardvark.We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aardvark.Utilities", "Aardvark.Utilities\Aardvark.Utilities.csproj", "{380F7ADC-BE36-45A9-89D5-E54EFEB8165F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aardvark.WebTests", "Aardvark.WebTests\Aardvark.WebTests.csproj", "{36855351-03DE-4BA7-B8DD-33EC60252313}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aardvark.WebTests", "Aardvark.WebTests\Aardvark.WebTests.csproj", "{36855351-03DE-4BA7-B8DD-33EC60252313}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aardvark.Reporting", "Aardvark.Reporting\Aardvark.Reporting.csproj", "{46DEE28A-5D48-4752-A9A0-62258F7B8D88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{36855351-03DE-4BA7-B8DD-33EC60252313}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36855351-03DE-4BA7-B8DD-33EC60252313}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36855351-03DE-4BA7-B8DD-33EC60252313}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46DEE28A-5D48-4752-A9A0-62258F7B8D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46DEE28A-5D48-4752-A9A0-62258F7B8D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46DEE28A-5D48-4752-A9A0-62258F7B8D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46DEE28A-5D48-4752-A9A0-62258F7B8D88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
