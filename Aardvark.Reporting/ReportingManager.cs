@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using RelevantCodes.ExtentReports;
 
-namespace TatAutomationFramework.Common
+namespace Aardvark.Reporting
 {
     /// <summary>
     /// Creates a single instance of Extent Report 

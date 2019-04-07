@@ -2,7 +2,7 @@
 using NUnit.Framework.Interfaces;
 using RelevantCodes.ExtentReports;
 
-namespace TatAutomationFramework.Common
+namespace Aardvark.Reporting
 {
     public class ReportingTasks
     {

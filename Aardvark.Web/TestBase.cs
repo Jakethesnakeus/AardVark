@@ -1,5 +1,5 @@
 ﻿using Aardvark.Core;
-using Aardvark.Web;
+using Aardvark.Reporting;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using System;
@@ -11,6 +11,7 @@ namespace Aardvark.Web
     public class TestBase
     {
         #region Test Run Variable Defaults
+        public static ReportingTasks _reportingTasks;
 
         public const int defaultTimeoutInSeconds = 60;
 
@@ -36,6 +37,7 @@ namespace Aardvark.Web
             // Save a reference to the current Test's log in its TestContext
             TestContext.Set("log", "");
 
+
             // Log the test attributes of the current [Test]
             Log.StandardAttributes();
 
@@ -54,8 +56,10 @@ namespace Aardvark.Web
                 // Delete all cookies
                 AppBase.DeleteAllCookies();
 
+
                 // Logging - After action success
                 Log.Success();
+
             }
             catch (Exception e)
             {

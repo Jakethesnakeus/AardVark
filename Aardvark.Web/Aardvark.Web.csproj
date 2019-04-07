@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Aardvark.Core\Aardvark.Core.csproj" />
+    <ProjectReference Include="..\Aardvark.Reporting\Aardvark.Reporting.csproj" />
     <ProjectReference Include="..\Aardvark.Utilities\Aardvark.Utilities.csproj" />
   </ItemGroup>
 
