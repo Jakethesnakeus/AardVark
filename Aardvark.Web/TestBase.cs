@@ -2,7 +2,9 @@
 using Aardvark.Reporting;
 using NUnit.Framework;
 using OpenQA.Selenium;
+using RelevantCodes.ExtentReports;
 using System;
+using System.IO;
 using Assert = Aardvark.Core.Assert;
 using TestContext = Aardvark.Core.Context;
 
@@ -44,12 +46,14 @@ namespace Aardvark.Web
             // Log Before Action
             Log.BeforeAction();
 
+            
+            BeginReporting();
+
             // Perform the action
             try
             {
-                // Create a WebDrvier session
+                _reportingTasks.InitializeTest();
                 Session.Create();
-
                 // Set WebDriver's window to full screen
                 AppBase.Maximize();
 
@@ -80,6 +84,7 @@ namespace Aardvark.Web
         {
             // Log Before Action
             Log.BeforeAction();
+                            
 
             // Perform the action
             try
@@ -90,8 +95,11 @@ namespace Aardvark.Web
                     // Take screenshot of the failure state
                     AppBase.TakeScreenshot();
                 }
+                _reportingTasks.FinalizeTest();
+                _reportingTasks.CleanUpReporting();
                 // Quit this driver, closing every associated window.
                 AppBase.Quit();
+               
                 // Logging - After action success
                 Log.Success();
             }
@@ -114,5 +122,17 @@ namespace Aardvark.Web
                 }
             }
         }
+        public static void BeginReporting()
+        {
+            ExtentReports extentReports = ReportingManager.Instance;
+            //extentReports.LoadConfig(Directory.GetParent(NUnit.Framework.TestContext.CurrentContext.TestDirectory).Parent.FullName + "\\extent-config.xml");
+            extentReports.LoadConfig("C:/Users/jaket/source/repos/AardVark/Aardvark.Reporting/extent-config.xml");
+            //Note we have hardcoded the browser, we will deal with this later
+            //extentReports.AddSystemInfo("Browser", "Chrome");
+
+            _reportingTasks = new ReportingTasks(extentReports);
+
+        }
+        
     }
 }
