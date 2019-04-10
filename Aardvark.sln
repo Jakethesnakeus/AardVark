@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aardvark.Utilities", "Aardv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aardvark.WebTests", "Aardvark.WebTests\Aardvark.WebTests.csproj", "{36855351-03DE-4BA7-B8DD-33EC60252313}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aardvark.Reporting", "Aardvark.Reporting\Aardvark.Reporting.csproj", "{46DEE28A-5D48-4752-A9A0-62258F7B8D88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aardvark.ExtentReporting", "Aardvark.ExtentReporting\Aardvark.ExtentReporting.csproj", "{46DEE28A-5D48-4752-A9A0-62258F7B8D88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using RelevantCodes.ExtentReports;
 
-namespace Aardvark.Reporting
+namespace Aardvark.ExtentReporting
 {
     /// <summary>
     /// Creates a single instance of Extent Report 

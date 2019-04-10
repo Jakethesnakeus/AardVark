@@ -1,5 +1,5 @@
 ﻿using Aardvark.Core;
-using Aardvark.Reporting;
+using Aardvark.ExtentReporting;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using RelevantCodes.ExtentReports;

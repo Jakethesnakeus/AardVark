@@ -8,8 +8,8 @@
     <ProjectGuid>{46DEE28A-5D48-4752-A9A0-62258F7B8D88}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Aardvark.Reporting</RootNamespace>
-    <AssemblyName>Aardvark.Reporting</AssemblyName>
+    <RootNamespace>Aardvark.ExtentReporting</RootNamespace>
+    <AssemblyName>Aardvark.ExtentReporting</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

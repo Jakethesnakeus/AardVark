@@ -2,7 +2,7 @@
 using NUnit.Framework.Interfaces;
 using RelevantCodes.ExtentReports;
 
-namespace Aardvark.Reporting
+namespace Aardvark.ExtentReporting
 {
     public class ReportingTasks
     {
