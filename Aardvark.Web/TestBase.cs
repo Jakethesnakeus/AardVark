@@ -47,11 +47,12 @@ namespace Aardvark.Web
             Log.BeforeAction();
 
             
-            BeginReporting();
 
             // Perform the action
             try
             {
+                BeginReporting();
+
                 _reportingTasks.InitializeTest();
                 Session.Create();
                 // Set WebDriver's window to full screen

@@ -87,6 +87,9 @@
   <ItemGroup>
     <Content Include="extent-config.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Reports\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
