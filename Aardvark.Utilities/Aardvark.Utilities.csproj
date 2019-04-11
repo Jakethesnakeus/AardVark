@@ -21,6 +21,12 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\Aardvark.Core\bin\Debug\net462\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="WebDriver">
+      <HintPath>..\Aardvark.Drivers\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support">
+      <HintPath>..\..\sdetqa-framework-c-sharp\Selenium\WebDriver.Support.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
