@@ -97,7 +97,7 @@ namespace Aardvark.Web
                     AppBase.TakeScreenshot();
                 }
                 _reportingTasks.FinalizeTest();
-                _reportingTasks.CleanUpReporting();
+                //_reportingTasks.CleanUpReporting();
                 // Quit this driver, closing every associated window.
                 AppBase.Quit();
                
@@ -122,6 +122,11 @@ namespace Aardvark.Web
                     Console.WriteLine(log);
                 }
             }
+        }
+        [OneTimeTearDown]
+        public void ReportEnd()
+        {
+            _reportingTasks.CleanUpReporting();
         }
         public static void BeginReporting()
         {

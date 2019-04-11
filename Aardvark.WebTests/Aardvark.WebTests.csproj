@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Aardvark.Core\Aardvark.Core.csproj" />
+    <ProjectReference Include="..\Aardvark.Resources\Aardvark.Resources.csproj" />
     <ProjectReference Include="..\Aardvark.Utilities\Aardvark.Utilities.csproj" />
     <ProjectReference Include="..\Aardvark.Web\Aardvark.Web.csproj" />
   </ItemGroup>
