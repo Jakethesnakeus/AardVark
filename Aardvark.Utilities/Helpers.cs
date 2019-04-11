@@ -62,6 +62,30 @@ namespace Aardvark.Utilities
             }
         }
 
+        public string GetText(string element, string type)
+        {
+            try
+            {
+                if (type == "Id")
+                {
+                    return driver.FindElement(By.Id(element)).ToString();
+                }
+                else if (type == "XPath")
+                {
+                    return driver.FindElement(By.XPath(element)).ToString();
+                }
+                else if (type == "Css")
+                {
+                    return driver.FindElement(By.CssSelector(element)).ToString();
+                }
+                else
+                    return "Check the element type you are inputting";
+            }
+            catch
+            {
+                throw new SystemException("We were not able to get the text of the element: " + element);
+            }
+        }
         public string GetTitle()
         {
             return driver.Title;
